@@ -1,0 +1,24 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>assets/icons/Edit Folder.png</file>
+    <file>assets/icons/Edit Property.png</file>
+    <file>assets/icons/Opened Folder.png</file>
+    <file>assets/icons/Website.png</file>
+    <file>assets/icons/Calendar Plus.png</file>
+    <file>assets/icons/Edit Calendar.png</file>
+    <file>assets/icons/Book.png</file>
+    <file>assets/icons/Bookmark.png</file>
+    <file>assets/icons/Business.png</file>
+    <file>assets/icons/Close.png</file>
+    <file>assets/icons/Health Book.png</file>
+    <file>assets/icons/Left.png</file>
+    <file>assets/icons/Microsoft To Do App.png</file>
+    <file>assets/icons/Pin.png</file>
+    <file>assets/icons/Save.png</file>
+    <file>assets/icons/Search.png</file>
+    <file>assets/icons/Subtract.png</file>
+    <file>assets/icons/Task Completed.png</file>
+    <file>assets/icons/Timetable.png</file>
+    <file>assets/icons/Waste.png</file>
+  </qresource>
+</RCC>

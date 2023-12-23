@@ -1,0 +1,2001 @@
+,Name,Age,City
+0,John,21,New York
+1,Jane,76,London
+2,Jane,39,New York
+3,Sara,28,New York
+4,Jane,61,Paris
+5,Jane,79,London
+6,John,76,Paris
+7,John,56,London
+8,Jane,77,New York
+9,John,38,London
+10,John,57,Toronto
+11,John,71,London
+12,Sam,34,New York
+13,Sara,79,Toronto
+14,Sam,84,Toronto
+15,John,42,Toronto
+16,John,50,Paris
+17,Sam,68,Paris
+18,Sam,69,London
+19,Sara,85,London
+20,Sara,29,New York
+21,John,95,Toronto
+22,Sam,84,New York
+23,Sam,49,London
+24,Sam,21,Toronto
+25,Sara,97,Toronto
+26,John,29,London
+27,John,29,London
+28,Sam,46,New York
+29,Sam,87,New York
+30,Sara,61,Paris
+31,Sara,23,Toronto
+32,Sam,68,London
+33,Sam,22,New York
+34,Sara,98,Paris
+35,Sam,100,London
+36,Jane,80,New York
+37,Sara,92,Toronto
+38,Sara,90,Paris
+39,Sara,22,Paris
+40,Sam,84,London
+41,Jane,58,Toronto
+42,Sam,50,New York
+43,Jane,93,Paris
+44,Sara,54,Toronto
+45,Sara,68,London
+46,Sara,69,New York
+47,John,37,Paris
+48,Sam,27,New York
+49,John,93,London
+50,Sam,34,Toronto
+51,John,19,London
+52,Sara,92,Paris
+53,John,85,New York
+54,Jane,45,New York
+55,Sam,63,London
+56,Sara,89,London
+57,John,75,Toronto
+58,John,84,New York
+59,Jane,19,London
+60,Jane,85,New York
+61,Jane,21,Toronto
+62,John,35,New York
+63,Jane,90,New York
+64,Sam,37,Toronto
+65,John,74,London
+66,Sam,87,Toronto
+67,John,71,New York
+68,Sam,27,London
+69,Sam,41,Toronto
+70,Sam,96,Toronto
+71,Sam,57,Paris
+72,Sam,96,New York
+73,Sara,62,Paris
+74,Jane,46,New York
+75,Sam,60,Paris
+76,John,80,London
+77,Jane,72,New York
+78,Sara,91,Toronto
+79,Sara,76,New York
+80,Sara,19,New York
+81,Jane,66,New York
+82,Jane,40,London
+83,John,44,New York
+84,Sam,98,London
+85,John,42,Paris
+86,Jane,20,Paris
+87,John,74,Paris
+88,Sara,35,Paris
+89,Sam,69,Paris
+90,John,62,New York
+91,Sam,71,London
+92,John,24,Toronto
+93,Sara,73,New York
+94,John,85,Paris
+95,Jane,62,Paris
+96,John,32,New York
+97,Sara,38,London
+98,Sam,26,New York
+99,John,79,London
+100,Sara,90,Toronto
+101,Sara,60,Paris
+102,Sam,59,Toronto
+103,Sam,89,Paris
+104,John,100,Paris
+105,John,73,London
+106,Jane,92,Paris
+107,Jane,46,New York
+108,John,30,Toronto
+109,Sam,24,Toronto
+110,Sara,50,New York
+111,Jane,50,Paris
+112,Sara,59,New York
+113,Sara,64,Toronto
+114,Sara,100,London
+115,Jane,47,Toronto
+116,John,32,Paris
+117,Sam,50,New York
+118,Sara,84,London
+119,John,36,London
+120,Sara,66,London
+121,Sam,36,London
+122,John,47,Paris
+123,John,95,Toronto
+124,Sam,98,Toronto
+125,Sam,99,London
+126,Jane,58,Toronto
+127,John,38,Toronto
+128,John,88,Toronto
+129,Sara,77,London
+130,Sam,83,New York
+131,Sara,18,Paris
+132,Sam,20,New York
+133,Sam,51,New York
+134,Jane,61,Toronto
+135,Sam,20,Paris
+136,Sara,18,Toronto
+137,Jane,96,New York
+138,Sam,97,New York
+139,Sam,68,Toronto
+140,Jane,62,New York
+141,Jane,77,London
+142,John,29,London
+143,Jane,95,New York
+144,Sam,39,London
+145,Sara,88,New York
+146,Sam,28,Paris
+147,Sam,63,Toronto
+148,John,34,Toronto
+149,Sara,35,London
+150,Sam,89,Paris
+151,Sam,98,New York
+152,Sam,78,New York
+153,John,44,London
+154,Jane,69,London
+155,Sara,94,Toronto
+156,Jane,39,Toronto
+157,Sam,55,London
+158,Sam,80,London
+159,Sara,61,Toronto
+160,Sam,47,Toronto
+161,Sam,99,London
+162,Jane,95,London
+163,Jane,46,New York
+164,John,75,Toronto
+165,John,94,London
+166,Jane,94,London
+167,Sara,90,Paris
+168,John,99,Paris
+169,John,55,London
+170,Jane,97,Paris
+171,Jane,22,Paris
+172,Sam,69,London
+173,Sam,99,Paris
+174,John,19,Toronto
+175,John,30,Paris
+176,Jane,99,London
+177,Jane,20,Paris
+178,Sam,54,London
+179,Sam,37,Toronto
+180,Jane,79,Paris
+181,John,19,London
+182,John,52,London
+183,John,70,New York
+184,Jane,38,London
+185,Sara,87,New York
+186,John,49,London
+187,Sam,58,Paris
+188,John,97,Toronto
+189,Sara,40,Paris
+190,John,37,Toronto
+191,Sam,36,New York
+192,Jane,89,Paris
+193,Sam,40,New York
+194,Sara,65,Paris
+195,John,36,New York
+196,Jane,81,Toronto
+197,Sam,39,Paris
+198,John,25,London
+199,Sara,93,Paris
+200,Sam,90,Paris
+201,Sam,66,Paris
+202,Sara,41,New York
+203,John,32,New York
+204,John,56,Toronto
+205,John,89,New York
+206,Sam,64,Toronto
+207,Sam,57,Toronto
+208,Sara,27,Toronto
+209,Sara,63,New York
+210,Jane,95,New York
+211,John,86,Toronto
+212,John,49,Toronto
+213,Sara,67,Paris
+214,John,54,Toronto
+215,Jane,19,Toronto
+216,Sam,64,Toronto
+217,Jane,52,New York
+218,Sara,38,New York
+219,John,84,London
+220,John,89,London
+221,Sam,52,London
+222,Sam,35,New York
+223,Sam,68,Paris
+224,Jane,97,New York
+225,Jane,86,New York
+226,Sara,40,Paris
+227,Sam,41,London
+228,Sara,84,Paris
+229,John,33,London
+230,Sam,22,Paris
+231,Jane,93,London
+232,Sam,77,Toronto
+233,Sara,64,Toronto
+234,John,81,Paris
+235,Jane,100,London
+236,John,73,Toronto
+237,John,52,London
+238,Sara,79,Toronto
+239,Sara,61,New York
+240,Sam,61,Toronto
+241,Sam,38,Toronto
+242,Sam,18,New York
+243,Sam,61,Toronto
+244,Sara,74,London
+245,Sara,43,New York
+246,John,58,Toronto
+247,Sara,78,Toronto
+248,Jane,33,Paris
+249,Jane,100,New York
+250,John,47,Toronto
+251,Sam,44,Paris
+252,Sam,22,New York
+253,Sam,33,London
+254,John,73,Toronto
+255,Jane,42,Toronto
+256,Sara,94,London
+257,John,55,London
+258,Jane,96,London
+259,John,47,New York
+260,John,96,Paris
+261,Sam,47,London
+262,Sara,86,New York
+263,John,95,New York
+264,John,40,New York
+265,Sam,100,New York
+266,Jane,99,Toronto
+267,John,41,London
+268,John,57,Toronto
+269,Jane,95,Toronto
+270,Sara,86,New York
+271,John,29,Toronto
+272,Sam,20,Toronto
+273,Sara,76,Paris
+274,Sam,100,New York
+275,Sara,44,Paris
+276,John,41,London
+277,Jane,74,London
+278,John,94,New York
+279,John,38,New York
+280,Sam,44,London
+281,Sara,89,London
+282,Jane,26,New York
+283,John,94,Paris
+284,Sam,96,London
+285,Sam,81,London
+286,Sara,100,Toronto
+287,Jane,44,Paris
+288,Sara,74,Paris
+289,Sara,50,London
+290,Sam,43,Paris
+291,John,70,London
+292,Sam,21,New York
+293,Jane,79,Toronto
+294,Sam,49,London
+295,Sam,24,Paris
+296,Jane,21,New York
+297,Sam,54,Paris
+298,Sam,83,London
+299,John,58,New York
+300,Sara,89,Paris
+301,John,47,Toronto
+302,Jane,54,London
+303,Sara,86,Toronto
+304,Jane,27,London
+305,Sara,77,Toronto
+306,Sam,49,Paris
+307,Jane,28,London
+308,John,83,London
+309,Sara,88,London
+310,Sam,76,New York
+311,Jane,58,Paris
+312,John,51,Toronto
+313,Sam,73,Paris
+314,Sara,86,Toronto
+315,Sara,37,Paris
+316,Sara,85,Paris
+317,John,83,London
+318,Sam,41,London
+319,Sara,80,London
+320,John,71,New York
+321,Sara,62,Paris
+322,Sam,53,New York
+323,Sam,41,London
+324,Sara,51,New York
+325,Jane,59,Toronto
+326,Sara,28,Toronto
+327,John,50,Paris
+328,Jane,64,Toronto
+329,Jane,39,New York
+330,Sam,41,Toronto
+331,Sara,46,Paris
+332,John,97,Paris
+333,Jane,86,Paris
+334,Sara,80,Paris
+335,John,57,New York
+336,Sam,26,London
+337,Sam,78,Paris
+338,Jane,76,Paris
+339,Jane,25,Paris
+340,Sara,35,New York
+341,Sara,28,London
+342,John,69,Paris
+343,Sam,74,London
+344,Sam,38,Toronto
+345,Jane,86,Paris
+346,John,93,New York
+347,John,67,Toronto
+348,Sam,69,London
+349,Sam,20,Toronto
+350,Jane,41,London
+351,John,45,Paris
+352,Jane,57,Paris
+353,Sara,61,Toronto
+354,John,74,Toronto
+355,John,48,Toronto
+356,John,49,Toronto
+357,Sara,56,Toronto
+358,Jane,22,Paris
+359,Sam,81,Paris
+360,Sam,88,London
+361,Jane,44,London
+362,Jane,97,New York
+363,John,91,London
+364,Sam,36,London
+365,Jane,18,London
+366,Sara,41,London
+367,Jane,91,Paris
+368,Sam,36,Paris
+369,Jane,55,New York
+370,John,70,Paris
+371,Jane,23,Toronto
+372,John,45,Toronto
+373,Sara,95,Toronto
+374,Sam,30,Paris
+375,John,99,Toronto
+376,Sam,36,Toronto
+377,Sara,33,Paris
+378,Jane,41,New York
+379,Sam,18,Toronto
+380,Sam,45,New York
+381,Sara,62,London
+382,John,51,London
+383,Sara,35,New York
+384,Sam,41,Toronto
+385,John,86,Paris
+386,Sam,57,Toronto
+387,John,72,Toronto
+388,John,54,Paris
+389,Sam,70,New York
+390,Sara,88,London
+391,John,19,Paris
+392,John,65,Toronto
+393,Jane,85,Paris
+394,Jane,39,Toronto
+395,Sam,61,London
+396,Sara,49,Toronto
+397,Sara,18,New York
+398,John,66,Paris
+399,Sara,38,New York
+400,John,69,New York
+401,Sam,41,London
+402,John,23,Paris
+403,Sam,45,New York
+404,Sam,22,New York
+405,John,29,Toronto
+406,Sam,76,Toronto
+407,Sara,56,London
+408,Jane,64,Paris
+409,Sara,22,Paris
+410,Sara,67,Toronto
+411,John,24,Paris
+412,Jane,29,London
+413,Sara,34,Toronto
+414,Sara,72,Paris
+415,John,48,London
+416,Sara,72,London
+417,Sam,39,New York
+418,Sam,38,London
+419,Sam,90,Paris
+420,John,65,New York
+421,Sam,74,London
+422,Sam,76,Toronto
+423,Sara,26,Toronto
+424,Jane,37,London
+425,Sara,89,Paris
+426,Sara,73,Paris
+427,Jane,30,New York
+428,John,53,London
+429,Jane,97,London
+430,Jane,32,New York
+431,John,98,Toronto
+432,Sam,49,London
+433,Sara,90,Paris
+434,Jane,99,London
+435,John,69,London
+436,Sam,54,New York
+437,Sam,64,London
+438,Sam,30,Paris
+439,Sam,89,Paris
+440,Jane,86,Toronto
+441,Sara,59,Paris
+442,Sara,36,New York
+443,John,43,London
+444,Sara,84,Paris
+445,Sam,79,Paris
+446,Jane,99,Paris
+447,Sam,77,New York
+448,John,97,Paris
+449,Sara,26,Paris
+450,Jane,56,Toronto
+451,Sam,68,London
+452,Sam,76,London
+453,Sam,53,Paris
+454,Jane,50,Toronto
+455,Sam,21,New York
+456,John,60,London
+457,Sara,59,London
+458,John,29,London
+459,Jane,32,Toronto
+460,Sam,57,Toronto
+461,Sara,76,London
+462,Jane,75,Toronto
+463,Sam,92,Toronto
+464,Jane,41,Toronto
+465,Jane,21,Toronto
+466,Jane,68,Toronto
+467,Jane,67,Toronto
+468,Jane,31,London
+469,Sara,72,Paris
+470,Sam,82,Toronto
+471,Jane,61,London
+472,Sam,36,Toronto
+473,Sara,89,Toronto
+474,John,37,Toronto
+475,Sara,47,New York
+476,Jane,49,New York
+477,Sam,53,Toronto
+478,Sam,64,Toronto
+479,John,79,Paris
+480,Sam,28,London
+481,John,35,London
+482,Jane,80,London
+483,John,39,New York
+484,Sara,37,Toronto
+485,Sara,50,Paris
+486,Sam,25,Paris
+487,John,37,Paris
+488,Jane,77,Paris
+489,Sara,78,Toronto
+490,Sara,70,London
+491,Sam,46,Paris
+492,Sam,74,New York
+493,Sara,78,Toronto
+494,Sara,20,London
+495,Jane,66,London
+496,Jane,80,London
+497,Sam,62,Toronto
+498,John,59,New York
+499,Jane,80,New York
+500,Jane,24,Paris
+501,Jane,91,Paris
+502,Sam,24,New York
+503,John,31,London
+504,Sam,96,London
+505,Sam,58,New York
+506,Sam,83,Paris
+507,Sara,56,New York
+508,Sara,32,New York
+509,Sam,100,New York
+510,Sara,34,Toronto
+511,Sam,82,Toronto
+512,Jane,74,Toronto
+513,Sam,97,Paris
+514,Jane,33,London
+515,John,58,London
+516,Sam,91,Paris
+517,Sara,47,Toronto
+518,Sara,22,Toronto
+519,Jane,90,New York
+520,Sara,91,New York
+521,Sam,29,London
+522,Sara,64,Toronto
+523,Jane,51,Paris
+524,Jane,71,Paris
+525,Sara,99,London
+526,Sam,58,Toronto
+527,Sara,62,London
+528,Sara,41,New York
+529,Sara,45,New York
+530,John,54,Paris
+531,Sam,28,Toronto
+532,John,59,Paris
+533,Jane,50,Paris
+534,Jane,50,London
+535,Sam,92,London
+536,Jane,63,Paris
+537,Sam,25,Toronto
+538,Jane,34,London
+539,Sam,20,Paris
+540,Jane,40,Paris
+541,John,22,Toronto
+542,John,72,New York
+543,John,48,New York
+544,Jane,42,New York
+545,Sara,33,Toronto
+546,Sam,42,Paris
+547,Sara,26,London
+548,Sam,30,London
+549,John,33,London
+550,Sam,77,Paris
+551,Sara,78,London
+552,John,97,London
+553,Jane,62,Toronto
+554,Jane,53,Toronto
+555,Sam,100,Toronto
+556,John,32,Toronto
+557,Sara,68,Paris
+558,Sam,86,Paris
+559,Sara,48,New York
+560,Sara,58,Paris
+561,Sam,64,New York
+562,John,23,Paris
+563,Jane,46,New York
+564,Jane,67,Toronto
+565,Jane,88,Toronto
+566,Sam,80,Toronto
+567,John,68,Toronto
+568,Sam,19,London
+569,Jane,95,London
+570,John,90,Toronto
+571,Sara,96,Toronto
+572,Sam,37,Paris
+573,Jane,91,Toronto
+574,John,84,Toronto
+575,John,63,Toronto
+576,Jane,31,Toronto
+577,Sam,84,London
+578,Jane,66,New York
+579,Jane,31,New York
+580,Sam,34,London
+581,Jane,50,New York
+582,Jane,87,New York
+583,Sam,24,London
+584,Jane,23,Toronto
+585,Jane,49,London
+586,Sam,53,London
+587,Sam,61,Paris
+588,John,49,Toronto
+589,Sam,58,New York
+590,Sam,62,New York
+591,John,94,Toronto
+592,John,77,New York
+593,Sam,77,New York
+594,Sam,23,New York
+595,Jane,40,Toronto
+596,Jane,72,Toronto
+597,Sara,26,New York
+598,John,39,Toronto
+599,Jane,77,Paris
+600,Sara,30,Toronto
+601,John,63,New York
+602,Sam,88,Toronto
+603,Sara,28,Toronto
+604,John,75,Toronto
+605,Sam,71,New York
+606,Sam,79,Paris
+607,John,65,New York
+608,John,48,Toronto
+609,Sam,37,London
+610,Sara,76,New York
+611,Sam,22,London
+612,Sara,83,Toronto
+613,Sam,33,Paris
+614,Sam,86,London
+615,Jane,42,Toronto
+616,Jane,33,Paris
+617,Jane,89,Paris
+618,Sara,64,Paris
+619,Sara,46,Toronto
+620,Jane,32,New York
+621,Sam,85,New York
+622,Jane,40,London
+623,Sara,26,Toronto
+624,John,47,Paris
+625,Sara,49,New York
+626,Jane,85,New York
+627,John,46,Toronto
+628,Sara,74,Paris
+629,John,78,Toronto
+630,Jane,20,New York
+631,Sam,63,London
+632,Sara,22,New York
+633,Sam,64,London
+634,Jane,81,Paris
+635,Jane,35,London
+636,Sara,71,London
+637,Jane,79,New York
+638,Sara,20,Paris
+639,Sara,50,London
+640,Sara,75,Paris
+641,John,21,Paris
+642,John,63,London
+643,Sara,79,Toronto
+644,Sam,24,New York
+645,John,39,London
+646,Sara,85,Toronto
+647,John,79,Toronto
+648,Jane,63,Paris
+649,John,38,Toronto
+650,Jane,25,New York
+651,Sam,22,Paris
+652,Sara,78,Toronto
+653,Sam,80,Toronto
+654,Sam,88,London
+655,Sam,95,Paris
+656,Sara,74,Paris
+657,Sara,44,New York
+658,Sara,38,New York
+659,Jane,42,New York
+660,Sara,30,New York
+661,Jane,54,Paris
+662,John,87,London
+663,Sam,91,Toronto
+664,Jane,83,London
+665,John,91,Toronto
+666,Sara,92,New York
+667,John,100,Paris
+668,Sam,25,Paris
+669,Sara,68,Toronto
+670,John,21,Paris
+671,John,48,London
+672,Sara,77,London
+673,John,49,Toronto
+674,John,40,Paris
+675,John,83,New York
+676,John,23,New York
+677,Jane,40,Paris
+678,Jane,54,London
+679,Jane,82,London
+680,Jane,66,Paris
+681,Sam,19,London
+682,Sara,31,Paris
+683,Jane,68,Toronto
+684,Sara,32,New York
+685,Sara,90,Paris
+686,Sam,33,Toronto
+687,John,23,New York
+688,Jane,61,London
+689,Sam,45,Paris
+690,Sara,51,Paris
+691,Sam,57,New York
+692,Jane,22,New York
+693,Sam,18,New York
+694,Sara,84,Toronto
+695,Sam,85,Toronto
+696,Jane,29,Paris
+697,Jane,27,New York
+698,Sara,25,Toronto
+699,Sam,87,London
+700,John,82,London
+701,Sam,96,Toronto
+702,Jane,39,London
+703,John,36,Paris
+704,John,43,New York
+705,Jane,94,New York
+706,Sam,94,London
+707,Sara,90,Paris
+708,Sara,55,London
+709,Sam,72,New York
+710,John,55,Paris
+711,Jane,97,London
+712,Sam,20,New York
+713,Jane,67,New York
+714,John,25,London
+715,Sam,44,Toronto
+716,Sara,23,London
+717,Sam,44,Paris
+718,Sam,68,New York
+719,John,98,New York
+720,John,24,Toronto
+721,John,25,New York
+722,Sara,31,London
+723,Jane,87,Toronto
+724,Sara,41,Paris
+725,Sam,38,New York
+726,Jane,70,New York
+727,Sam,62,London
+728,Sam,36,Toronto
+729,Jane,89,New York
+730,Sam,36,Toronto
+731,Jane,87,London
+732,Sam,81,Paris
+733,Sara,29,London
+734,Sara,98,New York
+735,Sam,59,Toronto
+736,Sara,47,New York
+737,John,72,Toronto
+738,Sam,31,Toronto
+739,John,82,Paris
+740,Sam,36,Paris
+741,Sam,35,London
+742,Sam,50,Toronto
+743,Sam,99,London
+744,Sara,93,Toronto
+745,Sara,37,New York
+746,John,51,London
+747,Jane,84,Paris
+748,Sam,65,Toronto
+749,Sam,90,Paris
+750,John,37,London
+751,Sara,65,New York
+752,Sam,52,London
+753,John,59,New York
+754,Sara,99,Toronto
+755,John,56,New York
+756,Sam,51,London
+757,Jane,88,London
+758,John,91,Toronto
+759,Sam,89,London
+760,John,33,New York
+761,Jane,24,Paris
+762,John,59,London
+763,Jane,35,Toronto
+764,John,40,London
+765,John,76,Toronto
+766,Sara,58,New York
+767,John,68,London
+768,Sara,41,London
+769,Jane,38,Paris
+770,Jane,27,Paris
+771,Sara,89,New York
+772,Jane,59,Paris
+773,John,57,Paris
+774,Sam,29,New York
+775,Jane,93,Paris
+776,Sara,26,New York
+777,Sam,58,London
+778,Jane,45,London
+779,Sara,81,Paris
+780,Sam,32,Paris
+781,Sam,26,Paris
+782,Sam,79,London
+783,Jane,87,Paris
+784,John,51,Toronto
+785,Sara,35,London
+786,Jane,90,New York
+787,Sara,83,Paris
+788,Sara,97,London
+789,Sara,25,New York
+790,Jane,91,London
+791,Jane,96,Paris
+792,Sam,70,New York
+793,Jane,91,Toronto
+794,Sam,98,New York
+795,Sam,60,Toronto
+796,Sara,95,Toronto
+797,Sam,75,Toronto
+798,Jane,98,New York
+799,Sara,76,Paris
+800,Sara,25,Toronto
+801,Sam,52,New York
+802,John,78,Paris
+803,Sara,100,Paris
+804,Sara,88,Toronto
+805,Jane,30,New York
+806,Jane,58,London
+807,Jane,46,New York
+808,Sam,77,Paris
+809,Jane,58,New York
+810,John,69,Toronto
+811,Sam,67,Toronto
+812,Sam,35,Toronto
+813,Sara,21,London
+814,Jane,41,Toronto
+815,Sara,62,New York
+816,John,76,Paris
+817,Sam,66,London
+818,Jane,93,London
+819,Jane,63,London
+820,Sam,70,New York
+821,Sam,92,New York
+822,John,92,London
+823,Jane,88,Toronto
+824,Jane,79,New York
+825,Jane,27,New York
+826,John,81,New York
+827,Sam,57,Paris
+828,Jane,65,Toronto
+829,John,45,Paris
+830,Sam,88,New York
+831,Jane,74,London
+832,Sam,38,Paris
+833,Sara,41,Toronto
+834,Jane,54,Paris
+835,Sam,70,Toronto
+836,John,89,New York
+837,Sara,41,New York
+838,Sam,46,Toronto
+839,Sam,26,London
+840,Jane,71,Paris
+841,Sam,54,New York
+842,Jane,79,London
+843,Sam,45,New York
+844,Sara,49,New York
+845,Jane,76,New York
+846,Sam,81,Toronto
+847,Sara,75,London
+848,Sara,69,London
+849,Jane,22,New York
+850,Sam,98,New York
+851,Sam,28,London
+852,John,99,Toronto
+853,Jane,70,London
+854,Sara,98,Toronto
+855,Jane,71,London
+856,Sam,47,London
+857,Sam,57,Toronto
+858,Sara,66,London
+859,Jane,32,Paris
+860,John,68,New York
+861,John,22,Toronto
+862,Sara,99,London
+863,Sam,44,London
+864,Sara,89,Toronto
+865,John,81,Toronto
+866,Sara,56,Paris
+867,Jane,72,London
+868,Sara,27,Paris
+869,Jane,71,London
+870,Sara,53,London
+871,Sara,23,London
+872,Sara,29,Paris
+873,Sam,73,New York
+874,John,69,Toronto
+875,Sam,47,London
+876,Jane,79,Paris
+877,Sam,84,New York
+878,Sam,44,Toronto
+879,Sam,41,New York
+880,Jane,79,London
+881,Jane,71,London
+882,Jane,55,Toronto
+883,Sara,29,Toronto
+884,Sam,71,London
+885,Sara,28,New York
+886,John,95,London
+887,Jane,40,London
+888,Jane,58,London
+889,John,20,Toronto
+890,Sara,28,Paris
+891,Sara,83,Toronto
+892,Sam,71,New York
+893,Sam,61,New York
+894,John,36,New York
+895,Sam,26,Paris
+896,Sam,90,New York
+897,Jane,30,Toronto
+898,Jane,42,Paris
+899,John,43,Toronto
+900,Jane,55,London
+901,Sam,22,Paris
+902,Sam,34,London
+903,Sam,40,London
+904,John,33,Toronto
+905,Sam,38,Toronto
+906,Sam,33,London
+907,John,35,Paris
+908,John,37,Paris
+909,John,62,Paris
+910,Sara,22,London
+911,Sam,29,London
+912,Jane,90,London
+913,John,32,Paris
+914,Sam,84,London
+915,Sam,90,London
+916,John,51,Toronto
+917,Sara,60,New York
+918,John,26,Paris
+919,John,28,Paris
+920,Sara,79,Paris
+921,John,26,Toronto
+922,John,93,Paris
+923,Jane,41,Toronto
+924,Sara,46,Paris
+925,John,22,New York
+926,Sam,65,Paris
+927,Sam,100,London
+928,Jane,58,Toronto
+929,Jane,59,Toronto
+930,Sam,60,Paris
+931,John,46,Toronto
+932,Jane,96,New York
+933,Sam,48,Paris
+934,John,68,London
+935,Sam,81,Toronto
+936,Jane,80,London
+937,John,56,Toronto
+938,Sara,19,Paris
+939,Jane,23,London
+940,Jane,25,London
+941,Sam,63,Paris
+942,Sam,27,Toronto
+943,Sara,43,New York
+944,John,38,Paris
+945,Sara,82,London
+946,Sara,73,Paris
+947,Jane,36,Paris
+948,John,59,New York
+949,Sam,70,New York
+950,Sam,37,Paris
+951,John,27,Toronto
+952,Sam,83,London
+953,Sam,68,London
+954,John,94,New York
+955,John,89,London
+956,Jane,56,Paris
+957,Sara,25,Paris
+958,Jane,86,New York
+959,Sara,66,London
+960,Sam,44,Toronto
+961,Jane,27,Paris
+962,Sam,70,Toronto
+963,Sam,90,Toronto
+964,John,97,Paris
+965,Jane,64,Paris
+966,Sara,67,Toronto
+967,John,34,Paris
+968,John,95,Toronto
+969,Sam,84,New York
+970,Jane,68,London
+971,Sara,45,Paris
+972,Jane,21,New York
+973,Jane,74,Toronto
+974,Sara,88,Toronto
+975,Sara,89,London
+976,Sam,33,London
+977,Jane,33,Paris
+978,Sara,65,New York
+979,Sara,75,London
+980,Jane,35,Paris
+981,Sam,25,Paris
+982,Jane,93,Paris
+983,Jane,86,Paris
+984,John,18,Paris
+985,Sara,27,Paris
+986,Sam,84,New York
+987,John,43,New York
+988,John,36,New York
+989,Sam,65,Toronto
+990,Sam,38,Toronto
+991,Sam,48,London
+992,Jane,72,New York
+993,Jane,100,Toronto
+994,Sara,29,Paris
+995,Sara,95,Toronto
+996,Jane,34,New York
+997,Jane,68,London
+998,Sara,57,New York
+999,Sara,53,Toronto
+1000,Sara,70,London
+1001,Jane,90,Paris
+1002,John,51,New York
+1003,John,45,London
+1004,Sam,71,Paris
+1005,Sara,20,Paris
+1006,John,60,London
+1007,Jane,93,London
+1008,Sara,31,London
+1009,Jane,44,New York
+1010,Sara,76,New York
+1011,John,81,New York
+1012,Sara,56,Toronto
+1013,John,58,Paris
+1014,Sara,69,New York
+1015,John,71,London
+1016,John,43,Paris
+1017,Sara,45,Paris
+1018,Jane,46,Paris
+1019,Sam,39,Paris
+1020,Sara,39,London
+1021,Sam,37,Paris
+1022,Sara,93,New York
+1023,John,67,London
+1024,Jane,25,Toronto
+1025,Sara,48,Paris
+1026,John,89,Toronto
+1027,Sara,88,London
+1028,Sam,67,Toronto
+1029,Jane,47,New York
+1030,John,99,Paris
+1031,Sara,53,London
+1032,Sara,49,Paris
+1033,John,92,New York
+1034,John,66,Paris
+1035,Jane,39,New York
+1036,Sara,21,New York
+1037,Jane,95,New York
+1038,John,57,Paris
+1039,Sara,81,Toronto
+1040,John,31,New York
+1041,Sam,89,Paris
+1042,John,68,London
+1043,John,20,Paris
+1044,Jane,48,Paris
+1045,Sara,69,Paris
+1046,Jane,97,New York
+1047,Sara,77,Paris
+1048,Sara,20,London
+1049,Sara,77,New York
+1050,Jane,61,Paris
+1051,Sam,18,Toronto
+1052,Sam,88,Paris
+1053,Jane,30,Paris
+1054,Sam,34,Toronto
+1055,Sam,46,Toronto
+1056,Sara,64,London
+1057,Sara,97,London
+1058,Sara,88,Paris
+1059,Sara,54,London
+1060,Jane,95,Paris
+1061,Sam,82,New York
+1062,Sara,63,New York
+1063,Jane,66,London
+1064,Jane,34,Toronto
+1065,Sam,26,New York
+1066,John,21,Toronto
+1067,John,52,Toronto
+1068,Jane,31,Paris
+1069,Sara,75,New York
+1070,Sam,84,London
+1071,Jane,81,London
+1072,Jane,58,London
+1073,John,89,New York
+1074,Sara,92,Paris
+1075,Sara,37,London
+1076,John,19,Paris
+1077,John,95,Toronto
+1078,Jane,60,London
+1079,John,26,London
+1080,John,55,London
+1081,Jane,94,New York
+1082,Sam,84,New York
+1083,Jane,78,New York
+1084,Jane,57,Paris
+1085,Sam,22,Paris
+1086,Sam,52,Paris
+1087,Sam,62,Toronto
+1088,Jane,73,London
+1089,John,44,New York
+1090,John,52,Toronto
+1091,Jane,77,New York
+1092,John,18,London
+1093,Sara,63,New York
+1094,Sara,54,Paris
+1095,Sara,87,New York
+1096,John,100,Toronto
+1097,Sam,46,London
+1098,Sara,46,Toronto
+1099,Jane,92,London
+1100,Jane,57,New York
+1101,Sam,86,London
+1102,Sam,78,Paris
+1103,John,98,New York
+1104,Sam,18,Toronto
+1105,Jane,34,London
+1106,John,83,Toronto
+1107,John,33,New York
+1108,Sara,97,Paris
+1109,Sam,77,Toronto
+1110,John,73,Paris
+1111,John,44,New York
+1112,Jane,66,New York
+1113,John,40,Paris
+1114,Sam,86,New York
+1115,Sam,61,London
+1116,John,90,New York
+1117,John,79,Toronto
+1118,Sam,35,Paris
+1119,Jane,41,Toronto
+1120,Sam,18,London
+1121,Sara,70,Paris
+1122,Jane,99,London
+1123,John,90,Toronto
+1124,Sam,88,London
+1125,Sara,73,New York
+1126,Jane,36,London
+1127,John,91,New York
+1128,Sam,22,London
+1129,Sara,75,Paris
+1130,Sam,85,Toronto
+1131,Jane,28,Paris
+1132,Sara,62,New York
+1133,Sara,88,Paris
+1134,Sara,66,New York
+1135,Sam,23,New York
+1136,John,41,Toronto
+1137,Jane,36,New York
+1138,Sara,85,Paris
+1139,Jane,20,Paris
+1140,Sara,35,Paris
+1141,Jane,62,New York
+1142,Jane,96,Paris
+1143,Sam,52,Toronto
+1144,Sam,66,New York
+1145,Jane,37,Paris
+1146,Sara,82,London
+1147,John,45,Paris
+1148,Jane,67,Paris
+1149,John,43,London
+1150,John,62,Paris
+1151,John,58,London
+1152,John,80,New York
+1153,John,100,Toronto
+1154,Sara,83,Paris
+1155,Sam,84,Paris
+1156,Sam,92,New York
+1157,Sam,53,Paris
+1158,Sam,88,Toronto
+1159,John,84,New York
+1160,John,83,Paris
+1161,Sam,69,New York
+1162,John,57,New York
+1163,Jane,48,Toronto
+1164,Sam,98,New York
+1165,Sam,83,New York
+1166,Jane,72,New York
+1167,Sara,59,Toronto
+1168,Jane,46,Toronto
+1169,John,80,Toronto
+1170,Jane,20,Toronto
+1171,Sam,93,Paris
+1172,Sam,84,London
+1173,Jane,80,New York
+1174,John,43,London
+1175,John,91,Paris
+1176,Jane,98,Paris
+1177,Jane,31,London
+1178,Sara,94,Toronto
+1179,John,81,Paris
+1180,Sara,42,New York
+1181,Sara,31,Paris
+1182,John,40,Paris
+1183,Sara,87,New York
+1184,Sara,99,Paris
+1185,Sam,76,New York
+1186,Sam,48,Toronto
+1187,John,23,New York
+1188,Sara,42,Toronto
+1189,John,75,New York
+1190,Sara,46,London
+1191,John,46,Paris
+1192,John,39,New York
+1193,Sara,31,Paris
+1194,Jane,95,New York
+1195,John,42,New York
+1196,Jane,84,Toronto
+1197,Jane,42,New York
+1198,Sam,41,London
+1199,John,82,New York
+1200,Sam,71,Toronto
+1201,Jane,27,New York
+1202,Sam,40,London
+1203,Jane,50,New York
+1204,John,58,Paris
+1205,John,65,Toronto
+1206,Sam,50,New York
+1207,John,83,Toronto
+1208,Sara,75,London
+1209,Sara,89,Paris
+1210,Jane,87,Paris
+1211,Sara,35,London
+1212,Sara,31,Toronto
+1213,Jane,86,New York
+1214,Sam,20,Toronto
+1215,John,32,London
+1216,Sam,62,New York
+1217,John,70,Paris
+1218,Sara,78,London
+1219,Sara,57,New York
+1220,Sara,94,New York
+1221,Jane,70,London
+1222,Sara,54,New York
+1223,John,73,Toronto
+1224,Sara,32,New York
+1225,Sara,97,New York
+1226,Jane,70,London
+1227,Jane,76,Toronto
+1228,Jane,20,Toronto
+1229,John,78,New York
+1230,Sara,24,Toronto
+1231,Sara,63,London
+1232,Jane,95,New York
+1233,Sara,24,Paris
+1234,Sam,31,New York
+1235,Jane,23,Toronto
+1236,Sam,76,Toronto
+1237,Jane,72,New York
+1238,John,36,Toronto
+1239,Jane,53,Toronto
+1240,Sara,70,London
+1241,Sam,44,London
+1242,Sara,75,Toronto
+1243,Sara,24,New York
+1244,John,20,New York
+1245,Sam,37,Paris
+1246,Sara,89,New York
+1247,John,73,London
+1248,Sara,51,New York
+1249,Jane,27,Paris
+1250,John,40,New York
+1251,Sara,47,Paris
+1252,Jane,50,London
+1253,Sam,33,Paris
+1254,John,58,London
+1255,John,80,Toronto
+1256,Sara,42,London
+1257,Sara,81,Toronto
+1258,Jane,36,Toronto
+1259,John,60,New York
+1260,Sara,59,London
+1261,Sara,61,New York
+1262,Sara,64,London
+1263,Sara,20,Toronto
+1264,Jane,65,Paris
+1265,John,37,New York
+1266,Jane,20,New York
+1267,Sam,85,Toronto
+1268,Jane,20,Paris
+1269,John,46,Paris
+1270,John,49,London
+1271,John,37,New York
+1272,Sara,76,New York
+1273,Sam,65,New York
+1274,John,49,Paris
+1275,Jane,78,New York
+1276,Sara,44,Paris
+1277,John,31,New York
+1278,Sara,55,Paris
+1279,John,91,New York
+1280,John,36,London
+1281,Jane,59,New York
+1282,Jane,71,London
+1283,Jane,52,Toronto
+1284,Sara,74,Toronto
+1285,Jane,100,London
+1286,Sara,54,Paris
+1287,Jane,82,London
+1288,Jane,99,Toronto
+1289,Sam,85,New York
+1290,John,96,New York
+1291,Sam,25,Paris
+1292,Jane,92,Paris
+1293,Jane,80,London
+1294,Sara,85,Toronto
+1295,Jane,78,New York
+1296,John,64,Toronto
+1297,John,95,Paris
+1298,Jane,72,Toronto
+1299,John,37,Toronto
+1300,Sam,89,London
+1301,Jane,61,Paris
+1302,Jane,99,Toronto
+1303,Sara,71,London
+1304,John,88,Toronto
+1305,Sara,75,Toronto
+1306,Jane,70,New York
+1307,John,70,London
+1308,Jane,81,London
+1309,Sara,28,Toronto
+1310,Jane,94,Paris
+1311,John,24,New York
+1312,Sam,39,London
+1313,Jane,39,Paris
+1314,Jane,19,Paris
+1315,John,91,Paris
+1316,Sara,87,New York
+1317,Sam,68,Toronto
+1318,Jane,83,Toronto
+1319,Sara,97,Toronto
+1320,Sam,76,London
+1321,Jane,51,New York
+1322,John,91,London
+1323,Jane,38,Toronto
+1324,Jane,80,London
+1325,Jane,99,New York
+1326,John,23,New York
+1327,Sam,46,London
+1328,Sam,53,New York
+1329,Sam,90,Toronto
+1330,Sam,37,New York
+1331,Sara,83,New York
+1332,John,82,Paris
+1333,Sam,70,Paris
+1334,Jane,32,Paris
+1335,Jane,27,London
+1336,John,73,London
+1337,Sam,27,Toronto
+1338,Jane,18,London
+1339,John,83,New York
+1340,Jane,42,Paris
+1341,Jane,78,New York
+1342,John,88,London
+1343,John,86,Paris
+1344,Jane,74,Paris
+1345,John,20,London
+1346,Sam,37,Paris
+1347,John,20,Toronto
+1348,John,30,Toronto
+1349,Sara,37,New York
+1350,John,61,London
+1351,Jane,57,Paris
+1352,John,19,London
+1353,Jane,87,Paris
+1354,Sara,87,London
+1355,Sam,90,London
+1356,John,67,London
+1357,Jane,51,Toronto
+1358,Jane,34,Toronto
+1359,Sara,83,London
+1360,Sam,52,Toronto
+1361,John,86,London
+1362,Sara,70,London
+1363,Sara,48,New York
+1364,Sara,57,New York
+1365,Jane,66,London
+1366,John,36,Paris
+1367,Sara,82,Paris
+1368,Jane,83,Toronto
+1369,Jane,81,New York
+1370,Sara,22,London
+1371,Jane,89,Toronto
+1372,Sara,46,London
+1373,Sam,43,Paris
+1374,John,95,Paris
+1375,John,58,New York
+1376,John,97,Toronto
+1377,Sam,95,London
+1378,Sara,60,New York
+1379,Sara,54,Toronto
+1380,John,86,Toronto
+1381,John,74,Toronto
+1382,John,93,London
+1383,John,39,London
+1384,John,90,Paris
+1385,Sam,84,Toronto
+1386,Sam,77,New York
+1387,Jane,93,New York
+1388,Jane,42,New York
+1389,John,57,Toronto
+1390,Jane,44,New York
+1391,John,83,Paris
+1392,Sara,52,Paris
+1393,Sam,29,Toronto
+1394,Sam,24,London
+1395,John,24,Toronto
+1396,John,32,New York
+1397,John,43,London
+1398,Jane,93,New York
+1399,Sam,80,New York
+1400,Sam,67,Toronto
+1401,Sam,94,Toronto
+1402,Sara,26,Paris
+1403,Sara,47,Toronto
+1404,Sara,30,Paris
+1405,Sara,24,London
+1406,Sara,69,Paris
+1407,Sam,86,Toronto
+1408,Jane,20,New York
+1409,Sam,88,Paris
+1410,Jane,28,Toronto
+1411,Sara,42,New York
+1412,Sara,62,London
+1413,Sam,25,Paris
+1414,Sara,69,New York
+1415,Jane,20,Paris
+1416,Sara,42,Paris
+1417,John,94,London
+1418,Jane,42,Paris
+1419,Sara,70,London
+1420,John,20,London
+1421,Sara,92,London
+1422,John,86,Toronto
+1423,Jane,76,New York
+1424,Jane,83,Paris
+1425,Sara,70,London
+1426,John,81,London
+1427,Jane,100,London
+1428,John,86,Paris
+1429,John,99,Paris
+1430,Sam,21,Toronto
+1431,Sara,49,London
+1432,John,44,New York
+1433,Sam,49,London
+1434,Jane,74,London
+1435,Sam,68,London
+1436,Sam,74,London
+1437,Sara,69,New York
+1438,John,51,Paris
+1439,Sam,84,Toronto
+1440,Jane,97,Toronto
+1441,Sam,68,Paris
+1442,John,32,London
+1443,Jane,95,New York
+1444,Sam,89,Paris
+1445,Sara,65,Toronto
+1446,Sam,33,Toronto
+1447,Jane,38,New York
+1448,John,36,London
+1449,Sam,73,London
+1450,Jane,32,New York
+1451,Sam,73,London
+1452,Sam,42,London
+1453,John,86,New York
+1454,John,83,New York
+1455,Jane,69,New York
+1456,John,37,Toronto
+1457,Sam,75,New York
+1458,John,99,New York
+1459,Sam,63,New York
+1460,Sara,27,London
+1461,Sam,59,New York
+1462,Jane,63,Paris
+1463,Jane,77,London
+1464,Sara,87,Paris
+1465,John,50,Toronto
+1466,Sara,42,Toronto
+1467,John,82,Toronto
+1468,John,93,London
+1469,Jane,68,Toronto
+1470,Sam,69,Toronto
+1471,Sara,34,New York
+1472,Jane,63,Toronto
+1473,John,84,Paris
+1474,John,60,Toronto
+1475,Jane,30,New York
+1476,Sam,94,London
+1477,Sam,97,Toronto
+1478,John,87,Paris
+1479,Sam,94,Toronto
+1480,Sam,21,London
+1481,Jane,76,New York
+1482,Sara,51,Toronto
+1483,Sara,65,Toronto
+1484,Sara,84,Paris
+1485,Jane,61,Paris
+1486,Sam,69,Paris
+1487,John,48,New York
+1488,Sara,51,Toronto
+1489,Jane,49,Toronto
+1490,Sara,58,New York
+1491,John,98,London
+1492,Sam,51,New York
+1493,Jane,36,New York
+1494,Sara,58,Paris
+1495,Jane,96,London
+1496,Sam,39,London
+1497,Jane,66,Toronto
+1498,Jane,95,London
+1499,Sara,43,Toronto
+1500,Sara,55,Toronto
+1501,Sam,55,New York
+1502,Sam,71,Paris
+1503,Sam,60,Toronto
+1504,Sara,37,London
+1505,Sara,49,Toronto
+1506,John,54,Toronto
+1507,Sara,49,New York
+1508,Jane,30,Toronto
+1509,Jane,84,London
+1510,Sara,89,London
+1511,Sam,49,New York
+1512,Jane,45,New York
+1513,Sara,62,London
+1514,Sara,70,Toronto
+1515,Sam,43,New York
+1516,Jane,84,New York
+1517,Sam,59,Paris
+1518,Sara,19,Paris
+1519,Sam,37,Toronto
+1520,Sara,80,Toronto
+1521,Jane,89,Paris
+1522,Sara,54,London
+1523,Jane,61,New York
+1524,Sara,99,New York
+1525,John,34,London
+1526,Sara,57,Paris
+1527,Sam,25,New York
+1528,Jane,39,New York
+1529,Sam,89,Paris
+1530,Sara,93,New York
+1531,John,68,Toronto
+1532,Sara,91,Paris
+1533,Jane,93,Toronto
+1534,John,50,New York
+1535,John,68,London
+1536,Jane,70,Toronto
+1537,Sara,32,Toronto
+1538,Sam,60,Toronto
+1539,John,86,New York
+1540,Jane,74,London
+1541,John,41,Paris
+1542,Sara,56,Toronto
+1543,Jane,93,London
+1544,Sam,87,New York
+1545,Sam,53,New York
+1546,Sam,32,London
+1547,Jane,51,London
+1548,John,90,Paris
+1549,Sam,39,New York
+1550,John,48,London
+1551,John,30,London
+1552,Jane,24,Paris
+1553,John,78,Toronto
+1554,John,88,London
+1555,Sam,97,New York
+1556,John,55,New York
+1557,John,42,New York
+1558,Sam,24,New York
+1559,Sara,21,New York
+1560,John,65,London
+1561,Jane,65,New York
+1562,Sara,88,London
+1563,John,66,London
+1564,Sara,54,Toronto
+1565,John,77,Toronto
+1566,Jane,62,London
+1567,Jane,45,New York
+1568,Sara,41,London
+1569,John,94,Paris
+1570,John,42,Paris
+1571,Sam,39,New York
+1572,Jane,65,London
+1573,Sam,20,Toronto
+1574,Sara,63,London
+1575,Jane,52,Toronto
+1576,John,56,London
+1577,John,74,London
+1578,Sara,76,Toronto
+1579,John,27,London
+1580,John,92,New York
+1581,Sam,88,Paris
+1582,Jane,64,Toronto
+1583,Sara,50,London
+1584,Sam,96,London
+1585,John,54,Toronto
+1586,Sam,69,London
+1587,Sara,86,New York
+1588,Jane,98,Toronto
+1589,Jane,75,New York
+1590,Jane,37,London
+1591,John,89,New York
+1592,Jane,54,Paris
+1593,John,96,New York
+1594,John,69,Toronto
+1595,Sara,79,Paris
+1596,John,78,London
+1597,John,88,New York
+1598,Jane,75,New York
+1599,Sara,28,Toronto
+1600,Sam,56,London
+1601,Jane,28,New York
+1602,John,35,Paris
+1603,Sara,37,Toronto
+1604,Sam,89,Paris
+1605,John,68,London
+1606,Jane,73,Toronto
+1607,John,41,New York
+1608,Sara,50,Paris
+1609,Jane,50,Paris
+1610,John,99,London
+1611,Sam,76,New York
+1612,Sara,60,Paris
+1613,John,48,New York
+1614,Jane,64,Toronto
+1615,Sara,18,London
+1616,Sara,90,London
+1617,John,100,Toronto
+1618,Sam,70,Toronto
+1619,Jane,42,London
+1620,John,86,Paris
+1621,Jane,86,New York
+1622,Jane,64,Toronto
+1623,Sam,97,London
+1624,Sam,47,Toronto
+1625,Sara,43,Toronto
+1626,Sam,31,London
+1627,Sara,25,New York
+1628,John,60,New York
+1629,John,76,London
+1630,Sara,97,Paris
+1631,Sara,75,London
+1632,John,61,Toronto
+1633,John,23,Toronto
+1634,John,96,Toronto
+1635,Sam,88,London
+1636,Sara,28,Paris
+1637,Sara,61,Paris
+1638,Jane,23,Paris
+1639,Jane,100,New York
+1640,Jane,63,Toronto
+1641,Sam,18,Toronto
+1642,Sara,20,London
+1643,Sara,86,Toronto
+1644,Sara,81,Toronto
+1645,John,18,New York
+1646,Jane,40,New York
+1647,John,25,London
+1648,Sam,43,Toronto
+1649,Jane,95,New York
+1650,Sara,57,Toronto
+1651,Sara,50,New York
+1652,Sam,27,New York
+1653,John,66,Toronto
+1654,John,41,Toronto
+1655,Sam,87,New York
+1656,Sara,66,New York
+1657,Sara,19,New York
+1658,Sara,42,London
+1659,Sara,34,New York
+1660,Jane,63,London
+1661,Sara,39,London
+1662,Sara,36,New York
+1663,Sara,30,Paris
+1664,John,56,Paris
+1665,Jane,26,Paris
+1666,Sam,84,New York
+1667,John,49,London
+1668,John,67,London
+1669,Jane,61,Paris
+1670,John,77,Paris
+1671,Sara,90,Paris
+1672,Sara,87,New York
+1673,Sara,91,Paris
+1674,John,30,London
+1675,John,59,Paris
+1676,John,23,Paris
+1677,Jane,59,London
+1678,Sara,52,Toronto
+1679,Jane,24,Toronto
+1680,Jane,83,New York
+1681,Sam,100,Paris
+1682,Jane,73,Paris
+1683,Sam,91,London
+1684,Sara,77,Toronto
+1685,John,20,London
+1686,John,82,Toronto
+1687,Jane,80,New York
+1688,Sam,37,New York
+1689,Jane,93,Paris
+1690,Sam,94,New York
+1691,Sara,87,London
+1692,Sara,58,London
+1693,Jane,26,Paris
+1694,John,30,New York
+1695,Jane,90,New York
+1696,Sara,45,Paris
+1697,Sara,59,London
+1698,John,64,Paris
+1699,John,90,London
+1700,Jane,94,New York
+1701,Sam,77,New York
+1702,Sara,53,London
+1703,Jane,24,Toronto
+1704,Sara,23,Paris
+1705,John,67,Paris
+1706,Sam,45,New York
+1707,Sam,59,Toronto
+1708,John,68,London
+1709,Sara,24,New York
+1710,John,84,New York
+1711,Sara,67,Paris
+1712,Jane,34,New York
+1713,Sara,20,London
+1714,John,56,Paris
+1715,John,79,New York
+1716,Sara,92,Toronto
+1717,Sara,81,Toronto
+1718,Sam,35,New York
+1719,John,29,New York
+1720,Jane,30,New York
+1721,Jane,89,Paris
+1722,Jane,66,Toronto
+1723,Sam,61,Paris
+1724,John,51,New York
+1725,Sara,47,London
+1726,Sara,76,London
+1727,Sara,69,New York
+1728,Jane,63,Paris
+1729,Jane,77,Toronto
+1730,Sam,25,Paris
+1731,Jane,27,Paris
+1732,John,57,Paris
+1733,Sara,94,New York
+1734,Jane,41,Paris
+1735,Sam,45,New York
+1736,Sara,97,Paris
+1737,Sam,66,Toronto
+1738,Sara,27,Toronto
+1739,Sara,40,New York
+1740,Jane,26,Paris
+1741,Sam,97,Paris
+1742,John,80,New York
+1743,John,80,London
+1744,Sam,79,New York
+1745,Sam,79,London
+1746,Sam,33,London
+1747,Jane,41,London
+1748,Sam,44,London
+1749,Sam,89,New York
+1750,John,63,Toronto
+1751,Sara,89,New York
+1752,Sam,81,Toronto
+1753,Sam,53,New York
+1754,Jane,71,London
+1755,John,33,London
+1756,John,86,New York
+1757,Sara,57,London
+1758,Jane,40,Toronto
+1759,Jane,54,New York
+1760,Sam,80,Toronto
+1761,Sam,33,London
+1762,John,79,London
+1763,Sara,74,Paris
+1764,Sam,48,Paris
+1765,Sara,41,Toronto
+1766,John,70,London
+1767,Jane,35,New York
+1768,Sam,82,Toronto
+1769,Sam,89,London
+1770,Sam,48,Toronto
+1771,Jane,43,Toronto
+1772,Jane,49,London
+1773,John,68,Toronto
+1774,John,22,London
+1775,Jane,61,Paris
+1776,John,75,London
+1777,John,32,New York
+1778,John,52,Toronto
+1779,Sara,55,Toronto
+1780,Jane,100,London
+1781,John,19,New York
+1782,Jane,70,London
+1783,Sam,50,Paris
+1784,Sam,73,Paris
+1785,Sam,88,Toronto
+1786,Sam,83,Paris
+1787,John,75,New York
+1788,John,53,New York
+1789,Jane,71,Toronto
+1790,Jane,85,New York
+1791,Sara,61,London
+1792,Sam,29,Paris
+1793,Sara,94,London
+1794,John,40,New York
+1795,Jane,56,Toronto
+1796,Sam,97,Toronto
+1797,Sara,21,Paris
+1798,Jane,95,Paris
+1799,John,55,New York
+1800,Sara,88,Paris
+1801,Jane,94,London
+1802,John,46,Toronto
+1803,Sam,44,London
+1804,John,90,London
+1805,Sara,50,New York
+1806,Jane,83,Toronto
+1807,John,53,Toronto
+1808,Sam,33,New York
+1809,Sam,30,London
+1810,John,86,London
+1811,Jane,100,Toronto
+1812,Sam,35,Toronto
+1813,Jane,27,Toronto
+1814,John,26,London
+1815,John,84,London
+1816,Sam,22,New York
+1817,Sara,89,London
+1818,Sam,35,London
+1819,Sara,25,New York
+1820,Sam,24,Toronto
+1821,Jane,64,Paris
+1822,Jane,35,New York
+1823,Sara,60,New York
+1824,Jane,23,Paris
+1825,Jane,68,Paris
+1826,Sam,31,New York
+1827,Sam,94,London
+1828,John,65,London
+1829,Jane,24,Paris
+1830,Sam,93,Toronto
+1831,John,60,Toronto
+1832,John,100,New York
+1833,Sara,31,Toronto
+1834,Sara,100,Paris
+1835,Sam,36,Toronto
+1836,Sam,63,Paris
+1837,Sara,100,New York
+1838,Sara,63,Toronto
+1839,Sam,50,New York
+1840,Jane,30,Paris
+1841,Jane,48,Toronto
+1842,Jane,38,New York
+1843,Sam,59,New York
+1844,Sam,48,Toronto
+1845,Jane,76,London
+1846,Sam,79,New York
+1847,Sara,82,Toronto
+1848,Sara,85,New York
+1849,Jane,65,Toronto
+1850,John,62,Toronto
+1851,Sam,20,Toronto
+1852,Sara,68,Toronto
+1853,Jane,59,Toronto
+1854,Sam,61,London
+1855,Sam,36,Toronto
+1856,Sara,85,Paris
+1857,Jane,73,Paris
+1858,John,74,New York
+1859,Sara,67,Paris
+1860,Jane,26,London
+1861,Jane,73,Toronto
+1862,Jane,76,Paris
+1863,John,62,Toronto
+1864,Jane,31,London
+1865,Jane,91,New York
+1866,Jane,28,New York
+1867,Jane,65,London
+1868,Sara,35,London
+1869,Sara,53,London
+1870,Sara,63,Paris
+1871,Sara,91,New York
+1872,Sara,65,Paris
+1873,Sara,98,London
+1874,John,67,London
+1875,Sam,59,London
+1876,Jane,80,New York
+1877,Sara,91,London
+1878,Jane,89,Paris
+1879,Sara,76,New York
+1880,John,25,Paris
+1881,Sam,32,Paris
+1882,Sam,98,New York
+1883,John,37,London
+1884,John,99,London
+1885,Sam,19,Paris
+1886,Jane,47,Paris
+1887,Jane,52,Toronto
+1888,Jane,62,Toronto
+1889,Sam,80,New York
+1890,Sam,66,Toronto
+1891,John,18,London
+1892,Sam,64,Paris
+1893,Sam,24,Paris
+1894,Jane,26,New York
+1895,Sam,44,Paris
+1896,Sam,82,New York
+1897,Sara,92,New York
+1898,Jane,23,Toronto
+1899,Jane,86,Paris
+1900,Jane,70,Paris
+1901,John,85,Paris
+1902,Sam,36,London
+1903,John,52,Toronto
+1904,John,52,Paris
+1905,Sara,95,Paris
+1906,Jane,28,Paris
+1907,John,63,New York
+1908,John,38,London
+1909,John,20,Paris
+1910,John,44,New York
+1911,Jane,52,London
+1912,John,37,London
+1913,John,50,Paris
+1914,John,37,Toronto
+1915,Jane,32,New York
+1916,John,53,Paris
+1917,John,34,Toronto
+1918,Jane,95,Toronto
+1919,John,42,London
+1920,Sara,33,Paris
+1921,Jane,78,Paris
+1922,Sam,45,London
+1923,Sam,96,Paris
+1924,John,44,Toronto
+1925,Jane,48,London
+1926,Sara,93,Paris
+1927,Jane,92,Toronto
+1928,Sam,43,Toronto
+1929,John,32,Paris
+1930,Jane,75,London
+1931,Jane,32,New York
+1932,Jane,78,Toronto
+1933,John,58,Paris
+1934,Jane,47,New York
+1935,Sara,70,London
+1936,Sam,85,London
+1937,Sara,73,Toronto
+1938,John,98,Paris
+1939,John,96,New York
+1940,Sara,98,London
+1941,Sam,44,London
+1942,Sara,50,New York
+1943,Sara,91,Paris
+1944,John,68,London
+1945,Sara,49,Toronto
+1946,Jane,29,Toronto
+1947,Sara,60,Toronto
+1948,Sara,86,Toronto
+1949,Sara,43,New York
+1950,Sara,95,London
+1951,Jane,81,London
+1952,John,100,Paris
+1953,Sam,39,Toronto
+1954,John,26,Paris
+1955,Jane,89,London
+1956,Sam,39,New York
+1957,Sara,34,Paris
+1958,Jane,33,London
+1959,Sam,29,Toronto
+1960,Sam,23,New York
+1961,Sam,67,New York
+1962,Jane,88,London
+1963,Jane,33,New York
+1964,Sam,73,Toronto
+1965,Sara,42,New York
+1966,Sam,90,London
+1967,Jane,31,New York
+1968,John,62,London
+1969,Sam,29,Paris
+1970,Sara,54,New York
+1971,Jane,34,Toronto
+1972,Sara,40,Paris
+1973,John,29,London
+1974,John,99,Paris
+1975,John,49,New York
+1976,Jane,25,Paris
+1977,Jane,96,London
+1978,John,48,Paris
+1979,Sara,58,Paris
+1980,Sara,96,New York
+1981,Sara,82,Toronto
+1982,Sara,50,Paris
+1983,John,30,London
+1984,Sam,58,New York
+1985,Sara,74,Paris
+1986,Sam,58,London
+1987,Jane,94,Paris
+1988,Sara,96,New York
+1989,Jane,43,Toronto
+1990,John,31,New York
+1991,Sara,20,New York
+1992,John,45,Toronto
+1993,Sam,58,London
+1994,Sara,36,London
+1995,Sara,79,New York
+1996,Sam,44,London
+1997,Sam,99,London
+1998,Sam,46,London
+1999,Sam,41,Toronto
