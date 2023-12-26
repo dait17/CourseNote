@@ -1,5 +1,5 @@
 from datetime import datetime, time
-from Data.DataController import TableHandle
+from Data.DataController import TableControl
 
 class KhoaHoc:
     def __init__(self, MaKH: int, TenKH: str, Nam: str, HocKy: int, ThuMucG: str, WebG: str):
@@ -36,7 +36,7 @@ class ThoiKhoaBieu:
         self.setup_foreign_oj()
 
     def setup_foreign_oj(self):
-        k = TableHandle('KhoaHoc').find("MaKH", self.MaKH)
+        k = TableControl('KhoaHoc').find("MaKH", self.MaKH)
         self.KhoaHoc = KhoaHoc(**k.iloc[0].to_dict())
 
     def to_dict(self):

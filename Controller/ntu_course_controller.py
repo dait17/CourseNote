@@ -273,6 +273,7 @@ class NTUCourseController(QWidget):
         self.entries = self.get_entries()
         self.show_entries()
         self.hide_info_box()
+        self.ui.search_le.clear()
 
     def save_course(self):
         self.close_addcourse_box()
@@ -309,7 +310,10 @@ class NTUCourseController(QWidget):
         text = self.ui.search_le.text()
 
         if len(text) == 0 or text.isspace():
-            self.__set_entries(self.models.KhoaHocs.to_list())
+            try:
+                self.__set_entries(self.models.KhoaHocs.to_list())
+            except Exception as e:
+                print(e)
         else:
             try:
                 models = self.models.KhoaHocs.search(text, ['KhoaHoc'], ['TenKH'])

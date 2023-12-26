@@ -1,13 +1,12 @@
 import os
 import pandas as pd
 
-
 package_path = os.path.dirname(__file__)
 
 
 class DataControl:
     """
-    Class chiệu trách nhiệm tương tác trục tiếp với dữ liệu đưc lưu dưới dạng file csv.
+    Class chiệu trách nhiệm tương tác trục tiếp với dữ liệu được lưu dưới dạng file csv.
     Giúp đảm bảo tính đúng đắn của cơ sở dữ liệu.
     Các tham số truyền vào dạng table_name, hoặc file_name phải có đuôi .csv
     """
@@ -142,6 +141,12 @@ class DataControl:
 
     @staticmethod
     def write_table(table_name: str, table_data: pd.DataFrame):
+        """
+        Ghi file csv
+        :param table_name:
+        :param table_data:
+        :return:
+        """
         if DataControl.__is_duplicate(table_name, table_data):
             raise 'Error: Duplicate key!'
         if not DataControl.__is_foreignkey_existed(table_name, table_data):
@@ -150,12 +155,12 @@ class DataControl:
         table_data.to_csv(file_path, index=False, header=True, encoding='utf-8')
 
 
-class TableHandle:
+class TableControl:
     __AllTableData = {}
 
     def __init__(self, table_name: str):
         self.table_name = table_name
-        self.table = TableHandle.get_table(table_name)
+        self.table = TableControl.get_table(table_name)
 
     def get_primary_key(self):
         return DataControl.get_primary_key(self.table_name + '.csv')
@@ -167,18 +172,12 @@ class TableHandle:
         try:
             if self.table[self.get_primary_key()[0]].count() == 0:
                 return 1
-            print(max(self.table[self.get_primary_key()[0]].tolist()) + 1)
             return max(self.table[self.get_primary_key()[0]].tolist()) + 1
         except:
             return -1
 
     def add(self, model: dict):
         l = len(self.table.index)
-        try:
-            print(f"l: {l}")
-            print(self.table.loc[l])
-        except:
-            pass
         self.table.loc[l] = model
 
     def collect_data(self, series: pd.Series):
@@ -207,7 +206,7 @@ class TableHandle:
         Tìm và trả về dữ liệu khớp với giá trị của cột tại bảng được truyền vào
         :return:
         """
-        table = TableHandle.get_table(self.table_name)
+        table = TableControl.get_table(self.table_name)
         return table[table[col] == value]
 
     def search_data(self, value):
@@ -215,7 +214,7 @@ class TableHandle:
         Tìm kiếm dựa trên toàn bộ các trường của của bảng hiện tại.
         :return:
         """
-        table = TableHandle.get_table(self.table_name)
+        table = TableControl.get_table(self.table_name)
         str_table = table.astype(str)
         data = pd.DataFrame({})
         primary_key = self.get_primary_key()
@@ -240,7 +239,6 @@ class TableHandle:
         """
         # Khởi tạo một dataframe rỗng để chứa dữ liệu khớp với giá trị tìm kiếm
         search_data = pd.DataFrame({})
-
         if len(cols) == 0 or len(tables) == 0 or value is None:
             return search_data
 
@@ -248,7 +246,7 @@ class TableHandle:
         value = str(value).lower()
 
         # Kết hợp các bảng được
-        data = TableHandle.inner_join(*tables)
+        data = TableControl.inner_join(*tables)
 
         # Thêm các cột dữ liệu tự định nghĩa
         if custom_col_value is not None:
@@ -278,12 +276,13 @@ class TableHandle:
             except Exception as e:
                 print(e)
         search_data = search_data.drop_duplicates()
+
         search_data = data.loc[data['pri_key'].isin(list(map(int, search_data['pri_key'].to_list())))]
         return search_data
 
     @staticmethod
     def inner_join(*table_name):
-        # Danh sách các bagnr đã join
+        # Danh sách tên các bảng đã join
         data_tn = []
         # dữ liệu được join từ các bảng
         data = pd.DataFrame({})
@@ -293,6 +292,10 @@ class TableHandle:
             # Hàm 'get_foreign_key' trả về một mảng 2 chiều, với mỗi mảng 1 chiều bên trong chứa các thuộc tính:
             # [tên cột khoái ngoại trong bảng, tên bảng chính chứa khoá ngoại, tên cột trong bảng chính]
             foreign_table = DataControl.get_foreign_key(tn + '.csv')
+            if len(data_tn) == 0 and len(foreign_table) == 0:
+                data_tn.append(tn)
+                data = TableControl.get_table(tn).copy()
+
             # Duyệt qua từng khoá ngoại,
             # nếu bảng chứa khoá ngoại có trong danh sách các bảng cần join và bảng chưa được join thì thực hiện join
             for fk in foreign_table:
@@ -300,8 +303,8 @@ class TableHandle:
                 # Kiểm tra bảng đã có trong danh sách các bảng được join chưa
                 # if (ftb in table_name) and (ftb not in data_tn):
                 if tn not in data_tn or ftb not in data_tn:
-                    tbl = TableHandle.get_table(tn)
-                    tbr = TableHandle.get_table(ftb)
+                    tbl = TableControl.get_table(tn).copy()
+                    tbr = TableControl.get_table(ftb).copy()
                     new_data = pd.merge(tbl, tbr, left_on=fk[0], right_on=fk[2], how='inner')
                     if len(data_tn) == 0:
                         data = new_data.copy()
@@ -335,10 +338,10 @@ class TableHandle:
         rows = self.find_model(model)
         for i in rows.index.tolist():
             self.table.drop(i, inplace=True)
-        print(f"index: {self.table.index}")
+        self.table.reset_index(drop=True, inplace=True)
 
     def save_change(self):
-        TableHandle.update(self.table_name, self.table)
+        TableControl.update(self.table_name, self.table)
 
         # cập nhật lại dữ liệu cho bảng
         self.table = self.get_table(self.table_name)
@@ -353,7 +356,7 @@ class TableHandle:
         for key in foreign_key:
             # Lấy dữ liệu từ bảng chứa khoá ngoại
             forei_table = DataControl.read_table(key[1])
-            # Lấy dữ liệu có trong cột kết nối khoá ngoại của bảng chính nhưng không có trong bảng chứa khoá ngoại
+            # Lấy dữ liệu có trong cột kết nối khoá ngoại của bảng hiện tại nhưng không có trong bảng chứa khoá ngoại
             cur_not_in_fore = DataControl.find_lose_key(table_data, key[0], forei_table, key[2])
             # xoá các bản ghi không hợp lệ
             for i in cur_not_in_fore.index.tolist():
@@ -369,33 +372,38 @@ class TableHandle:
         """
         # Nếu bảng đã được đọc vào __AllTableData thì trả về dữ liệu của bảng,
         # #ngược lại lấy dữ lệu từ file
-        table = TableHandle.__AllTableData.get(table_name)
+        table = TableControl.__AllTableData.get(table_name)
         if table is None:
             tb_fullname = table_name + '.csv'
             table = DataControl.read_table(tb_fullname)
-            TableHandle.__AllTableData.update({table_name: table})
-        return TableHandle.clean_data(table_name, table)
+            TableControl.__AllTableData.update({table_name: table})
+        return TableControl.clean_data(table_name, table)
+
+    # @staticmethod
+    # def reload_data():
+    #     keys = list(TableControl.__AllTableData.keys())
+    #     TableControl.__AllTableData.clear()
+    #     for key in keys:
+    #         TableControl.get_table(key)
 
     @staticmethod
-    def reload_data():
-        keys = list(TableHandle.__AllTableData.keys())
-        TableHandle.__AllTableData.clear()
-        for key in keys:
-            TableHandle.get_table(key)
+    def refresh_data():
+        for key, value in TableControl.__AllTableData.items():
+            TableControl.clean_data(key, value)
 
     @staticmethod
     def update(table_name: str, table: pd.DataFrame):
-        table = TableHandle.clean_data(table_name, table)
+        table = TableControl.clean_data(table_name, table)
         DataControl.write_table(table_name + '.csv', table)
-        TableHandle.reload_data()
+        TableControl.refresh_data()
 
 
 if __name__ == '__main__':
     import random
     from datetime import time
 
-    table = TableHandle('ThoiKhoaBieu')
-    khoaHocs = TableHandle('KhoaHoc')
+    table = TableControl('ThoiKhoaBieu')
+    khoaHocs = TableControl('KhoaHoc')
     makh_list = khoaHocs.table['MaKH'].tolist()
     days = ['Thứ hai', 'Thứ ba', 'Thứ tư', 'Thứ năm', 'Thứ sáu', 'Thứ bảy']
     time_list = [['7:00', '8:40'], ['8:50', '11:30'], ['7:00', '9:40'], ['13:00', '15:40'], ['13:00', '14:40'],

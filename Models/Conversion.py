@@ -3,7 +3,7 @@ from Models.DataModel import *
 
 class DataTable:
     def __init__(self, table_name: str):
-        self.__data = TableHandle(table_name)
+        self.__data = TableControl(table_name)
 
     def query(self, q: str):
         try:
@@ -15,7 +15,7 @@ class DataTable:
             models.append(DataTable.to_model(self.__data.table_name, row.to_dict()))
         return models
 
-    def search(self, value, tables:list[str], cols:list[str], custom_col_value:list[list]|None=None):
+    def search(self, value, tables: list[str], cols: list[str], custom_col_value: list[list] | None = None):
         """
         Tìm kiếm dựa trên các bảng và trường dữ liệu được truyền vào. Trả về một danh sách các model của bảng hiện tại.
         :param value: giá trị tìm kiếm
@@ -24,10 +24,10 @@ class DataTable:
         :param custom_col_value: cột dữ liệu tự định nghĩa
         :return: 
         """
-        data = self.__data.search(value,tables, cols, custom_col_value)
+        data = self.__data.search(value, tables, cols, custom_col_value)
         result = []
         for index, row in data.iterrows():
-            m = DataTable.to_model(self.__data.table_name , self.__data.collect_data(row))
+            m = DataTable.to_model(self.__data.table_name, self.__data.collect_data(row))
             result.append(m)
         return result
 
@@ -74,8 +74,6 @@ class DataTable:
 
     @staticmethod
     def to_model(table_name: str, data: dict):
-        if table_name == 'LoaiKhoaHoc':
-            return LoaiKhoaHoc(**data)
         if table_name == 'KhoaHoc':
             return KhoaHoc(**data)
         if table_name == 'ThoiKhoaBieu':

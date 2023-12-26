@@ -9,9 +9,9 @@ from Views import Ui_timeTablePage, Ui_tbEtriesForm, Ui_tb_add
 from .CustomTools import *
 
 
-class TBEntries(QWidget):
+class TBEntry(QWidget):
     def __init__(self):
-        super(TBEntries, self).__init__()
+        super(TBEntry, self).__init__()
         self.mousePressEvent = None
         self.ui = Ui_tbEtriesForm()
         self.ui.setupUi(self)
@@ -189,7 +189,7 @@ class TimeTableController(QWidget):
 
         # Data
         self.models = Entities()
-        self.entries: list[TBEntries] = []
+        self.entries: list[TBEntry] = []
         self.reload_data()
 
         #
@@ -217,6 +217,7 @@ class TimeTableController(QWidget):
         self.entries = self.__get_entries()
         self.__show_entries()
         self.hide_detail_box()
+        self.ui.search_course_le.clear()
 
     def hide_detail_box(self):
         self.ui.rightMenuContainer.hide()
@@ -265,9 +266,8 @@ class TimeTableController(QWidget):
                 widget.ui.saveTime_btn.clicked.connect(self.__add_time)
 
                 # # Thêm dữ liệu
-                print(self.selected_model.MaKH)
-                model = self.models.KhoaHocs.find(self.selected_model.MaKH)
-                widget.ui.selectCourse_cb.addItem(model.TenKH, model.MaKH)
+                course_model = self.models.KhoaHocs.find(self.selected_model.MaKH)
+                widget.ui.selectCourse_cb.addItem(course_model.TenKH, course_model.MaKH)
 
                 self.__show_addTimeQ(widget)
         except Exception as e:
@@ -308,7 +308,7 @@ class TimeTableController(QWidget):
         (Hàm khởi tạo)
         Thiết lập mục đầu tiên để hiển thị tên các trường dữ liệu trong một mục thời gian biểu
         """
-        entry_head = TBEntries()
+        entry_head = TBEntry()
         entry_head.override_css(".QLabel {font-weight: 600;}"
                                 "#mainBodyContainer{"
                                 "                   border-radius: 6px;"
@@ -329,13 +329,13 @@ class TimeTableController(QWidget):
         # Kết nối hành động (action) cho nút đóng của thanh menu bên phải
         # self.ui.rm_close_btn.clicked.connect(lambda: self.ui.rightMenuContainer.hide())
 
-    def __add_entry(self, et: TBEntries):
+    def __add_entry(self, et: TBEntry):
         """
         Thêm một mục thời gian biểu vào danh sách hiển thị
         """
         self.ui.tb_bodyContainer_lo.addWidget(et)
 
-    def __remove_entry(self, et: TBEntries):
+    def __remove_entry(self, et: TBEntry):
         """
         Xoá một mục ra khỏi danh sách hiển thị
         """
@@ -350,22 +350,26 @@ class TimeTableController(QWidget):
         self.__show_entries()
 
     def create_entry(self, model: ThoiKhoaBieu):
-        et = TBEntries()
+        et = TBEntry()
         et.set_model(model)
         et.set_mouse_press(self.__select_entry)
         return et
 
     def __get_entries(self):
-        models = self.models.ThoiKhoaBieus.to_list()
-        # Sắp xếp các lịch học tăng dần theo thuộc tính Thứ và Giờ học
-        # CustomData.get_id_Thu giúp lấy giá trị của Thứ theo số nguyên. VD: Thứ hai -> 2
-        models.sort(key=lambda model: (CustomData.get_id_Thu(model.Thu), model.GioBD))
         entries = []
-        for model in models:
-            # et = TBEntries()
-            # et.set_model(model)
-            # et.set_mouse_press(self.__select_entry)
-            entries.append(self.create_entry(model))
+
+        try:
+            models = self.models.ThoiKhoaBieus.to_list()
+            # Sắp xếp các lịch học tăng dần theo thuộc tính Thứ và Giờ học
+            # CustomData.get_id_Thu giúp lấy giá trị của Thứ theo số nguyên. VD: Thứ hai -> 2
+            models.sort(key=lambda model: (CustomData.get_id_Thu(model.Thu), model.GioBD))
+            for model in models:
+                # et = TBEntries()
+                # et.set_model(model)
+                # et.set_mouse_press(self.__select_entry)
+                entries.append(self.create_entry(model))
+        except Exception as e:
+            print(e)
         return entries
 
     def __select_entry(self, model: ThoiKhoaBieu):
@@ -431,7 +435,10 @@ class TimeTableController(QWidget):
         time_value = [CustomData.time_format(model.GioBD, model.GioKT) for model in self.models.ThoiKhoaBieus.to_list()]
 
         if len(text) == 0 or text.isspace():
-            self.__set_entries(self.models.ThoiKhoaBieus.to_list())
+            try:
+                self.__set_entries(self.models.ThoiKhoaBieus.to_list())
+            except Exception as e:
+                print(e)
         else:
             try:
                 models = self.models.ThoiKhoaBieus.search(text, ['ThoiKhoaBieu', 'KhoaHoc'], ['TenKH', 'Thu', 'Phong'],
